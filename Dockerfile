@@ -3,5 +3,5 @@
 # and open the template in the editor.
 FROM openjdk:8
 ADD dock.jar dock.jar
-EXPOSE 8085
+EXPOSE 8090
 ENTRYPOINT ["java", "-jar", "dock.jar"]
