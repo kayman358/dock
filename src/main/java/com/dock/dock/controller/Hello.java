@@ -19,4 +19,9 @@ public class Hello {
     public String Hello(){
         return "Hello YouTube";
     }
+    
+    @GetMapping("/Hi")
+    public String Hi(){
+        return "Hello Kayman";
+    }
 }
