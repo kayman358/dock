@@ -29,4 +29,9 @@ public class Hello {
     public String Hu(){
         return "Hello Kayman and Wifey";
     }
+    
+    @GetMapping("/what")
+    public String What(){
+        return "What's up with you";
+    }
 }
