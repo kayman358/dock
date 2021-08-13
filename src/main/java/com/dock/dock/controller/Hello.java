@@ -30,5 +30,8 @@ public class Hello {
         return "Hello Kayman and Wifey";
     }
     
-
+    @GetMapping("/what")
+    public String What(){
+        return "What's up with you";
+    }
 }
